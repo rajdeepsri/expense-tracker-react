@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.75rem;
+    min-height: 100px;
+    gap: 1rem;
+}
+
+.icon_div {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+}
+
+.transaction_title_div {
+    flex-grow: 2;
+}
+
+.transaction_info_div {
+    text-align: right;
+}
+
+.transaction_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.type {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
+.amount {
+    color: #6FCF97;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 10px;
+    margin-top: 0.5rem;
+}

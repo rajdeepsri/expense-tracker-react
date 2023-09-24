@@ -1,0 +1,101 @@
+.container {
+    background-color: #F9F9F9;
+    min-height: 100dvh;
+}
+
+/* center part */
+.container_div {
+    padding: 0.6rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.income_exp {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.balance {
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 0.3rem;
+}
+
+.sub_income_exp {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+.flow_title {
+    font-size: 10px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.flow_price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.green_icon {
+    margin-right: 1rem;
+    padding: 4px;
+    background-color: rgba(111, 207, 151, 0.2);
+    border-radius: 50%;
+}
+
+.red_icon {
+    margin-right: 1rem;
+    padding: 4px;
+    background-color: rgba(235, 87, 87, 0.2);
+    border-radius: 50%;
+}
+
+.total_text_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10%;
+    gap: 0.15rem;
+}
+
+/* transactions */
+.transactions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.add_new_icon {
+    background-color: #006AF6;
+    width: 55px;
+    padding: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 1;
+    cursor: pointer;
+}

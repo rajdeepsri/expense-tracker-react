@@ -1,0 +1,15 @@
+/* navbar */
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 1rem;
+}
+
+.inner_div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
